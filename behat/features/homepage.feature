@@ -8,3 +8,9 @@ Feature: Homepage
     Given I am an anonymous user
     When  I visit the homepage
     Then  I should have access to the page
+
+  @api
+  Scenario: Visit the dynamic page
+    Given I am an anonymous user
+    When  I visit "dynamic-page"
+    Then  I should have access to the page
