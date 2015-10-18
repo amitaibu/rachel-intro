@@ -65,7 +65,9 @@ describe('Visual monitor testing', function() {
         name: '1',
         exclude: [],
         remove: [],
-        hide: [],
+        hide: [
+          '.navbar-right'
+        ],
         screenWidth: selectedCaps == 'chrome' ? [960] : undefined,
       }, resultsCallback)
       .call(done);
