@@ -12,5 +12,5 @@ Feature: Homepage
   @api
   Scenario: Visit the dynamic page
     Given I am an anonymous user
-    When  I visit "dynamic-page"
+    When  I visit "dynamic-page--wrong"
     Then  I should have access to the page
